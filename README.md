@@ -1,6 +1,6 @@
 ## rv-graph
 
-基于 [vis-network](http://visjs.org/docs/network/) 的 react 可视化网络图库。
+基于 [vis-network](http://visjs.org/docs/network/) 的 `react` 可视化网络图库。
 
 ## Install
 
@@ -21,7 +21,7 @@ $ npm i -S rv-graph
 
 ## Ref Props
 
-rv-graph 提供感知和操作关系图的能力，对于组件实例提供以下属性
+`rv-graph` 提供感知和操作关系图的能力，对于组件实例提供以下属性
 
 | name    | type   | description                                                                                    |
 | ------- | ------ | ---------------------------------------------------------------------------------------------- |
@@ -35,3 +35,9 @@ rv-graph 提供感知和操作关系图的能力，对于组件实例提供以�
 | -------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | [base-usage](https://github.com/DelBlank/rv-graph/blob/master/demo/base-demo.js) | http://visjs.org/examples/network/basicUsage.html       |
 | [node-icon](https://github.com/DelBlank/rv-graph/blob/master/demo/node-icon.js)  | http://visjs.org/examples/network/nodeStyles/icons.html |
+
+## Notice
+
+- `ionicons` 图标名称和 `unicode` 编码请参考 [`ionicons cheatsheet`](https://ionicons.com/v2/cheatsheet.html)
+
+- `font-awesome` 图标名称和 `unicode` 编码请参考 [`font-awesome` 官网](https://fontawesome.com/icons?d=gallery)
