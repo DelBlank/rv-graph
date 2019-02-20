@@ -156,7 +156,7 @@ class Graph extends Component {
 }
 
 Graph.defaultProps = {
-  graph: {},
+  graph: { nodes: [], edges: [] },
   options: {},
   events: {},
   className: '',

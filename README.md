@@ -12,7 +12,7 @@ $ npm i -S rv-graph
 
 | name       | type                                     | required | default                                                                      | description                                                                                                                                  |
 | ---------- | ---------------------------------------- | -------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| graph      | object{nodes: object[], edges: object[]} |          | {}                                                                           | 关系图的节点数据集和边数据集, 配置详见 [nodes](http://visjs.org/docs/network/nodes.html) / [edges](http://visjs.org/docs/network/edges.html) |
+| graph      | object{nodes: object[], edges: object[]} |          | {nodes: [], edges: []}                                                       | 关系图的节点数据集和边数据集, 配置详见 [nodes](http://visjs.org/docs/network/nodes.html) / [edges](http://visjs.org/docs/network/edges.html) |
 | options    | object                                   |          | 详见 [util.js](https://github.com/DelBlank/rv-graph/blob/master/src/util.js) | 关系图配置项，详见 [vis-network-options](http://visjs.org/docs/network/#options)                                                             |
 | events     | object                                   |          | {}                                                                           | 关系图事件，详见 [vis-network-events](http://visjs.org/docs/network/#Events)                                                                 |
 | identifier | string                                   |          | uuid.v4()                                                                    | 组件渲染节点的样式 id                                                                                                                        |
@@ -31,4 +31,6 @@ rv-graph 提供感知和操作关系图的能力，对于组件实例提供以�
 
 ## Example
 
-原始 [vis-demo](http://visjs.org/network_examples.html)
+| rv-graph                                                                         | [vis-network](http://visjs.org/network_examples.html) |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| [base-usage](https://github.com/DelBlank/rv-graph/blob/master/demo/base-demo.js) | http://visjs.org/examples/network/basicUsage.html     |
