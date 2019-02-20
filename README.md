@@ -31,6 +31,7 @@ rv-graph 提供感知和操作关系图的能力，对于组件实例提供以�
 
 ## Example
 
-| rv-graph                                                                         | [vis-network](http://visjs.org/network_examples.html) |
-| -------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| [base-usage](https://github.com/DelBlank/rv-graph/blob/master/demo/base-demo.js) | http://visjs.org/examples/network/basicUsage.html     |
+| rv-graph                                                                         | [vis-network](http://visjs.org/network_examples.html)   |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| [base-usage](https://github.com/DelBlank/rv-graph/blob/master/demo/base-demo.js) | http://visjs.org/examples/network/basicUsage.html       |
+| [node-icon](https://github.com/DelBlank/rv-graph/blob/master/demo/node-icon.js)  | http://visjs.org/examples/network/nodeStyles/icons.html |

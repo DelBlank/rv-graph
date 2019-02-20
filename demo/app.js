@@ -4,14 +4,21 @@ import ReactDOM from 'react-dom'
 import HashAnchor from './anchor'
 import DemoList from './demo-list'
 import BaseDemo from './base-demo'
+import NodeIconDemo from './node-icon'
+import '../dist/vis-graph.css'
 import 'antd/dist/antd.css'
 import './index.less'
 
 const links = [
   {
-    href: '#base',
-    title: '基础demo',
+    href: '#base-usage',
+    title: '基础示例',
     Component: BaseDemo
+  },
+  {
+    href: '#node-icon',
+    title: '节点图标',
+    Component: NodeIconDemo
   }
 ]
 

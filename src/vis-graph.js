@@ -3,8 +3,10 @@ import isEqual from 'lodash/isEqual'
 import vis from 'vis'
 import uuid from 'uuid'
 import PropTypes from 'prop-types'
+// import './style.less'
+import '../asset/ionicons.css'
+import '../asset/font-awesome.css'
 import 'vis/dist/vis-network.min.css'
-import './style.less'
 
 import {
   idIsEqual,
