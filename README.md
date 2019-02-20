@@ -1,6 +1,6 @@
 ## rv-graph
 
-<img src="https://img.shields.io/badge/build-passing-green.svg"><img src="https://img.shields.io/badge/coverage-100%25-blue.svg">
+<img src="https://img.shields.io/badge/build-passing-green.svg"> <img src="https://img.shields.io/badge/coverage-100%25-blue.svg">
 
 基于 [vis-network](http://visjs.org/docs/network/) 的 `react` 可视化网络图库。
 
