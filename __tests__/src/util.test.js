@@ -48,12 +48,10 @@ describe('test util', () => {
     const events = { click: () => {} }
 
     bindEvents(network)
-
     expect(network.on).not.toBeCalled()
     expect(network.off).not.toBeCalled()
 
     bindEvents(network, events)
-
     expect(network.on).toBeCalledWith('click', events.click)
 
     bindEvents(network, events, false)
