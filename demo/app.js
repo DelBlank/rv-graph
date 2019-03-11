@@ -5,6 +5,7 @@ import HashAnchor from './anchor'
 import DemoList from './demo-list'
 import BaseDemo from './base-demo'
 import NodeIconDemo from './node-icon'
+import HierarchyDemo from './hierarchy'
 import '../dist/vis-graph.css'
 import 'antd/dist/antd.css'
 import './index.less'
@@ -19,6 +20,11 @@ const links = [
     href: '#node-icon',
     title: '节点图标',
     Component: NodeIconDemo
+  },
+  {
+    href: '#hierarchy',
+    title: '树形图',
+    Component: HierarchyDemo
   }
 ]
 

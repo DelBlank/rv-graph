@@ -33,10 +33,11 @@ $ npm i -S rv-graph
 
 ## Example
 
-| rv-graph                                                                         | [vis-network](http://visjs.org/network_examples.html)   |
-| -------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [base-usage](https://github.com/DelBlank/rv-graph/blob/master/demo/base-demo.js) | http://visjs.org/examples/network/basicUsage.html       |
-| [node-icon](https://github.com/DelBlank/rv-graph/blob/master/demo/node-icon.js)  | http://visjs.org/examples/network/nodeStyles/icons.html |
+| rv-graph                                                                         | [vis-network](http://visjs.org/network_examples.html)            |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [base-usage](https://github.com/DelBlank/rv-graph/blob/master/demo/base-demo.js) | http://visjs.org/examples/network/basicUsage.html                |
+| [node-icon](https://github.com/DelBlank/rv-graph/blob/master/demo/node-icon.js)  | http://visjs.org/examples/network/nodeStyles/icons.html          |
+| [hierarchy](https://github.com/DelBlank/rv-graph/blob/master/demo/hierarchy.js)  | http://visjs.org/examples/network/layout/hierarchicalLayout.html |
 
 ## Notice
 
