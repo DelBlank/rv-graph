@@ -49,5 +49,5 @@ export const getChangedData = (data = [], nextData = [], isEqual = _isEqual) => 
 // 给网络绑定或取消事件
 export const bindEvents = (network, events = {}, on = true) =>
   Object.keys(events).forEach(eventName =>
-    (on ? network.on : network.off)(eventName, events[eventName])
+    (on ? network.on : network.off).apply(network, [eventName, events[eventName]])
   )
